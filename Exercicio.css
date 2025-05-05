@@ -1,13 +1,187 @@
-span {
-    font-size: 25px;
-    color: rgb(0, 0, 231);
-    background: #1bd5e2;
-    box-shadow: 50px 50px 50px 50px #1bd5e2;
-    
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - Maria Herolldina Ivette Reinert</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
 
-.ancora {
-    color: rgb(226, 64, 43);
-}
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        .profile {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        h2 {
+            margin-top: 40px;
+            color: #333;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 5px;
+        }
+
+        .programming-knowledge {
+            margin-top: 20px;
+        }
+
+        .programming-knowledge ul {
+            list-style-type: square;
+        }
+
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 50px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Maria Herolldina Ivette Reinert</h1>
+    <nav>
+        <a href="#experiencias-profissionais">Experiências Profissionais</a>
+        <a href="#experiencias-academicas">Experiências Acadêmicas</a>
+        <a href="#conhecimentos">Conhecimentos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+</header>
+
+<div class="container">
+
+    <div class="profile">
+        <img src="foto.jpg" alt="Foto de perfil">
+        <p>Brasileira, Casada, 28 anos.<br>
+            E-mail: maria.reinert2@alunos.sc.senac.br<br>
+            Contato: (47) 9xxxx-xxxx<br>
+            Endereço: Rua xx, 00 - Cidade: Timbó SC</p>
+    </div>
+
+    <h2 id="experiencias-profissionais">Experiências Profissionais</h2>
+    <table>
+        <tr>
+            <th>Função</th>
+            <th>Tempo</th>
+        </tr>
+        <tr>
+            <td>Fofoqueira</td>
+            <td>24h por dia</td>
+        </tr>
+        <tr>
+            <td>Técnica em laboratório</td>
+            <td>7 anos</td>
+        </tr>
+        <tr>
+            <td>Produção</td>
+            <td>2 anos</td>
+        </tr>
+        <tr>
+            <td>Atendimento/Vendas</td>
+            <td>3 meses (atualmente)</td>
+        </tr>
+    </table>
+
+    <h2 id="experiencias-academicas">Experiências Acadêmicas</h2>
+    <ul>
+        <li>Ensino médio completo</li>
+        <li>Curso técnico em administração</li>
+        <li>Curso de cuidador de idoso</li>
+        <li>Curso de marketing</li>
+        <li>Curso de JAVA</li>
+    </ul>
+
+    <h2 id="conhecimentos">Conhecimentos Básicos na Área de Programação</h2>
+    <div class="programming-knowledge">
+        <h3>Aprendizado em Java:</h3>
+        <ul>
+            <li>Tipos de dados (int, double, char, boolean, string, arrays, arraylist, scanner)</li>
+            <li>Operadores aritméticos (soma, subtração, multiplicação, divisão, módulo)</li>
+            <li>Operadores relacionais (==, !=, >, <, >=, <=)</li>
+            <li>Operadores lógicos (&&, ||, !)</li>
+            <li>Operadores de atribuição (=, +=, -=, *=, /=)</li>
+            <li>Operadores de incremento e decremento (++ e --)</li>
+            <li>Estruturas de repetição (for, while e do-while)</li>
+            <li>Git e GitHub</li>
+            <li>Html.</li>
+        </ul>
+    </div>
+
+    <h2 id="contato">Contato</h2>
+    <img src="C:\Users\maria.reinert2\Desktop\linkedin-logo-free-download-free-png.webp" width="50"> <br/>
+    <a href="https://www.linkedin.com/login/pt" target="_blank>">Ir para linkedin</a> <br/>
+    
+    <img src="C:\Users\maria.reinert2\Desktop\GitHub-Logo.png" width="50"> <br/>
+     <a href="https://github.com/MariaReinert" target="_blank">Ir para GitHub </a> <br/>
+
+</div>
+
+<footer>
+    <p>&copy; 2025 Maria Herolldina Ivette Reinert. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
 
     
